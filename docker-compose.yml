@@ -8,6 +8,9 @@ services:
        - PATH_MP3=/mp3
        - PATH_SESSION=/session
        - USER_PHONE=5511999988888
+       - GROUPS=XXXXXXXXXXXXX-XXXXXXXXX8@g.us
+       - PROMPT="Faça um resumo das seguintes mensagens, deixando claro o que foi dito e os participantes da conversa. Abuse do bom humor para descrever o que foi dito, e deixe claro caso algum participante tenha deixado de responder a alguma questão:"
+       - MODEL=gpt-4o-mini
     volumes:
        - session:/session
        - mp3:/mp3
