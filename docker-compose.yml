@@ -19,7 +19,7 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /full/path/to/whatsaudio/mp3
+      device: /full/path/to/whatsaudio/session
       o: bind
   mp3:
     driver: local
